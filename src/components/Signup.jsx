@@ -113,7 +113,7 @@ const Signup = () => {
               onChange={handleInputChange}
             />
             {formErrors.firstName && (
-              <p className="error-message">{formErrors.firstName}</p>
+              <p className="error">{formErrors.firstName}</p>
             )}
             <input
               type="text"
@@ -123,7 +123,7 @@ const Signup = () => {
               onChange={handleInputChange}
             />
             {formErrors.lastName && (
-              <p className="error-message">{formErrors.lastName}</p>
+              <p className="error">{formErrors.lastName}</p>
             )}
             <input
               type="text"
@@ -133,7 +133,7 @@ const Signup = () => {
               onChange={handleInputChange}
             />
             {formErrors.email && (
-              <p className="error-message">{formErrors.email}</p>
+              <p className="error">{formErrors.email}</p>
             )}
             <input
               type="password"
@@ -143,7 +143,7 @@ const Signup = () => {
               onChange={handleInputChange}
             />
             {formErrors.password && (
-              <p className="error-message">{formErrors.password}</p>
+              <p className="error">{formErrors.password}</p>
             )}
             <button className="form-button" onClick={handleSubmit}>
               Claim your free trial

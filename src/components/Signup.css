@@ -6,7 +6,7 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background-image: url("src/assets/bg-intro-desktop.png");
+    background-image: url("/bg-intro-desktop.png");
 }
 
 .form-container{
@@ -80,6 +80,10 @@
 .green-text{
 color: hsl(154, 59%, 51%);
  text-transform: capitalize;
+}
+
+.error{
+    color: red;
 }
 
 @media screen and (max-width:375px) {
