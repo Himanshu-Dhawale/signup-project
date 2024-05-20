@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the most iconic PlayStation game franchise?",
+    "answerOptions": [
+      {"text": "God of War", "isCorrect": false},
+      {"text": "Uncharted", "isCorrect": false},
+      {"text": "Gran Turismo", "isCorrect": false},
+      {"text": "Final Fantasy", "isCorrect": true}
+    ]
+  },
+  {
+    "question": "Which game is considered the best-selling PlayStation title of all time?",
+    "answerOptions": [
+      {"text": "Grand Theft Auto V", "isCorrect": true},
+      {"text": "Call of Duty: Modern Warfare 2", "isCorrect": false},
+      {"text": "The Last of Us", "isCorrect": false},
+      {"text": "Spider-Man", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Which developer is behind the popular PlayStation series, Ratchet & Clank?",
+    "answerOptions": [
+      {"text": "Naughty Dog", "isCorrect": false},
+      {"text": "Insomniac Games", "isCorrect": true},
+      {"text": "Sucker Punch Productions", "isCorrect": false},
+      {"text": "Guerrilla Games", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What was the first PlayStation console released?",
+    "answerOptions": [
+      {"text": "PlayStation 2", "isCorrect": false},
+      {"text": "PlayStation 3", "isCorrect": false},
+      {"text": "PlayStation 4", "isCorrect": false},
+      {"text": "PlayStation", "isCorrect": true}
+    ]
+  },
+  {
+    "question": "Which PlayStation game is known for its iconic horror survival gameplay?",
+    "answerOptions": [
+      {"text": "Resident Evil", "isCorrect": true},
+      {"text": "Silent Hill", "isCorrect": false},
+      {"text": "Until Dawn", "isCorrect": false},
+      {"text": "The Last of Us", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the name of the iconic PlayStation mascot?",
+    "answerOptions": [
+      {"text": "Crash Bandicoot", "isCorrect": false},
+      {"text": "Spyro the Dragon", "isCorrect": false},
+      {"text": "Jak and Daxter", "isCorrect": false},
+      {"text": "Polygon Man", "isCorrect": true}
+    ]
+  },
+  {
+    "question": "Which PlayStation game is known for its open-world crime gameplay?",
+    "answerOptions": [
+      {"text": "Infamous", "isCorrect": false},
+      {"text": "Grand Theft Auto", "isCorrect": true},
+      {"text": "Spider-Man", "isCorrect": false},
+      {"text": "Horizon Zero Dawn", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Which developer is behind the popular PlayStation exclusive, God of War?",
+    "answerOptions": [
+      {"text": "Naughty Dog", "isCorrect": true},
+      {"text": "Insomniac Games", "isCorrect": false},
+      {"text": "Sucker Punch Productions", "isCorrect": false},
+      {"text": "Guerrilla Games", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "What is the name of the iconic PlayStation controller?",
+    "answerOptions": [
+      {"text": "Xbox Controller", "isCorrect": false},
+      {"text": "DualShock", "isCorrect": true},
+      {"text": "Switch Pro Controller", "isCorrect": false},
+      {"text": "GameCube Controller", "isCorrect": false}
+    ]
+  },
+  {
+    "question": "Which PlayStation game is known for its open-world action-adventure gameplay set in medieval times?",
+    "answerOptions": [
+      {"text": "Horizon Zero Dawn", "isCorrect": false},
+      {"text": "Ghost of Tsushima", "isCorrect": true},
+      {"text": "Spider-Man", "isCorrect": false},
+      {"text": "Days Gone", "isCorrect": false}
+    ]
+  }
+]

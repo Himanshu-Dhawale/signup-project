@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* .progress-bar{
+    position: relative;
+    border: 1px solid black;
+    height: 20px;
+    width: 500px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress-bar span{
+    position: absolute;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+  }
+
+   .progress-bar div{
+    
+    background-color: green;
+    height: 100%;
+  } */
+
+  .progress-bar {
+    position: relative; /* with scale */
+    height: 20px;
+    width: 500px;
+    background-color: rgb(233, 236, 239);
+    border: 1px solid #c5c5c5;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .progress-bar div {
+    background-color: #00c251;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .progress-bar span {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  .pagination{
+    border: 2px solid gray;
+  }
+
+  .pagination__selected{
+    background-color: blue;
+    color: white;
+  }

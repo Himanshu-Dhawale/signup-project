@@ -1,14 +1,23 @@
-import './App.css'
-import Signup from './components/Signup'
+import axios from "axios";
+ import React, { useEffect, useState } from "react"; 
+import Sidebar from "./components/Sidebar";
+import "./App.css"
+import SecondSidebar from "./components/SecondSidebar/SecondSidebar";
+import Player from "./components/Player";
 
-function App() {
+ const App = () => {
   
 
-  return (
-    <>
-      <Signup/>
-    </>
-  )
-}
 
-export default App
+  
+
+  return ( 
+  <div className="App relative w-[1512px] h-[895px] bg-[#000000]">
+   <Sidebar/>
+   <SecondSidebar/>
+   <Player/>
+  </div> 
+); 
+
+}; 
+export default App;
