@@ -1,23 +1,28 @@
-import axios from "axios";
- import React, { useEffect, useState } from "react"; 
-import Sidebar from "./components/Sidebar";
-import "./App.css"
-import SecondSidebar from "./components/SecondSidebar/SecondSidebar";
-import Player from "./components/Player";
+import axios from 'axios';
+import React, { useCallback, useEffect, useState } from 'react';
+import LandingPage from './pages/LandingPage';
 
- const App = () => {
+const App = () => {
   
-
-
+  //  function delay(ms) {
+  //   setTimeout(() => {
+      
+  //   }, ms)
+  // }
   
+  // delay(3000).then(() => alert('runs after 3 seconds'));
 
-  return ( 
-  <div className="App relative w-[1512px] h-[895px] bg-[#000000]">
-   <Sidebar/>
-   <SecondSidebar/>
-   <Player/>
-  </div> 
-); 
+  // function delay(ms) {
+  //   return new Promise(resolve => setTimeout(resolve, ms));
+  // }
+  
+  // delay(3000).then(() => alert('runs after 3 seconds'));
+  
+  return (
+    <div className='app flex flex-col items-center'>
+      <LandingPage/>
+    </div>
+  );
+};
 
-}; 
 export default App;
