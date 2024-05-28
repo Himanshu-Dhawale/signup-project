@@ -76,19 +76,19 @@ function LandingPage() {
         <section className="container px-6 py-8 mx-auto lg:py-16">
           <div className="grid grid-cols-1 gap-8 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
             <div>
-              <img className="object-cover w-full rounded-xl h-96" src="public\Staircase-Refresh-with-Wool-Berber-Carpet-and-Modern-Stair-Rods-1-800x800.jpg" alt="Portfolio" />
+              <img className="object-cover w-full rounded-xl h-96" src="Staircase-Refresh-with-Wool-Berber-Carpet-and-Modern-Stair-Rods-1-800x800.jpg" alt="Portfolio" />
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize">Modern Carpets</h1>
               <p className="mt-2 text-gray-500">High-quality carpets designed for both aesthetic appeal and durability.</p>
               <a href="#" className="inline-block mt-4 text-indigo-500 underline hover:text-indigo-400">Read more</a>
             </div>
             <div>
-              <img className="object-cover w-full rounded-xl h-96" src="public\351.jpg" alt="Portfolio" />
+              <img className="object-cover w-full rounded-xl h-96" src="351.jpg" alt="Portfolio" />
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize">Luxury Vinyl Tiles</h1>
               <p className="mt-2 text-gray-500">Stylish and practical vinyl tiles that add a touch of luxury to any room.</p>
               <a href="#" className="inline-block mt-4 text-indigo-500 underline hover:text-indigo-400">Read more</a>
             </div>
             <div>
-              <img className="object-cover w-full rounded-xl h-96" src="public\wood-wool5-768x513.jpeg" alt="Portfolio" />
+              <img className="object-cover w-full rounded-xl h-96" src="wood-wool5-768x513.jpeg" alt="Portfolio" />
               <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize">Acoustic Panels</h1>
               <p className="mt-2 text-gray-500">Innovative acoustic solutions to enhance sound quality and design.</p>
               <a href="#" className="inline-block mt-4 text-indigo-500 underline hover:text-indigo-400">Read more</a>
