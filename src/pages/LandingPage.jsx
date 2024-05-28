@@ -100,16 +100,16 @@ function LandingPage() {
           <div className="container px-6 mx-auto">
             <h2 className="text-3xl flex justify-center items-center font-semibold text-gray-800 mb-6">Our Clients</h2>
             <div className="flex justify-center items-center flex-wrap">
-              <img src="public\google (1).png" alt="Google" className="h-12 mx-4 my-2" />
-              <img src="public\microsoft (1).png" alt="Microsoft" className="h-12 mx-4 my-2" />
-              <img src="public\social.png" alt="Amazon" className="h-12 mx-4 my-2" />
-              <img src="public\apple-logo.png" alt="Apple" className="h-12 mx-4 my-2" />
-              <img src="public\facebook.png" alt="Facebook" className="h-12 mx-4 my-2" />
-              <img src="public\tesla.png" alt="Tesla" className="h-12 mx-4 my-2" />
-              <img src="public\nike.png" alt="Nike" className="h-12 mx-4 my-2" />
-              <img src="public\samsung.png" alt="Samsung" className="h-12 mx-4 my-2" />
-              <img src="public\intel.png" alt="Intel" className="h-12 mx-4 my-2" />
-              <img src="public\adidas.png" alt="Adidas" className="h-12 mx-4 my-2" />
+              <img src="google.png" alt="Google" className="h-12 mx-4 my-2" />
+              <img src="microsoft.png" alt="Microsoft" className="h-12 mx-4 my-2" />
+              <img src="social.png" alt="Amazon" className="h-12 mx-4 my-2" />
+              <img src="apple-logo.png" alt="Apple" className="h-12 mx-4 my-2" />
+              <img src="facebook.png" alt="Facebook" className="h-12 mx-4 my-2" />
+              <img src="tesla.png" alt="Tesla" className="h-12 mx-4 my-2" />
+              <img src="nike.png" alt="Nike" className="h-12 mx-4 my-2" />
+              <img src="samsung.png" alt="Samsung" className="h-12 mx-4 my-2" />
+              <img src="intel.png" alt="Intel" className="h-12 mx-4 my-2" />
+              <img src="adidas.png" alt="Adidas" className="h-12 mx-4 my-2" />
             </div>
           </div>
         </section>
