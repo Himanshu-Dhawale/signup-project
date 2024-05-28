@@ -18,6 +18,13 @@ function LandingPage() {
       </header>
 
       <main>
+      <section className="container px-6 py-8 mx-auto">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">Transform Your Space</h1>
+            <p className="text-gray-600 mb-8">Discover the perfect flooring and acoustic solutions for your home or business.</p>
+          </div>
+        </section>
+
         <section className="container px-6 py-8 mx-auto">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="p-8 space-y-3 border-2 border-indigo-400 rounded-xl">
@@ -88,6 +95,24 @@ function LandingPage() {
             </div>
           </div>
         </section>
+
+        <section className="bg-gray-100 py-12">
+          <div className="container px-6 mx-auto">
+            <h2 className="text-3xl flex justify-center items-center font-semibold text-gray-800 mb-6">Our Clients</h2>
+            <div className="flex justify-center items-center flex-wrap">
+              <img src="public\google (1).png" alt="Google" className="h-12 mx-4 my-2" />
+              <img src="public\microsoft (1).png" alt="Microsoft" className="h-12 mx-4 my-2" />
+              <img src="public\social.png" alt="Amazon" className="h-12 mx-4 my-2" />
+              <img src="public\apple-logo.png" alt="Apple" className="h-12 mx-4 my-2" />
+              <img src="public\facebook.png" alt="Facebook" className="h-12 mx-4 my-2" />
+              <img src="public\tesla.png" alt="Tesla" className="h-12 mx-4 my-2" />
+              <img src="public\nike.png" alt="Nike" className="h-12 mx-4 my-2" />
+              <img src="public\samsung.png" alt="Samsung" className="h-12 mx-4 my-2" />
+              <img src="public\intel.png" alt="Intel" className="h-12 mx-4 my-2" />
+              <img src="public\adidas.png" alt="Adidas" className="h-12 mx-4 my-2" />
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer className="bg-indigo-600">
@@ -117,3 +142,5 @@ function LandingPage() {
 }
 
 export default LandingPage;
+
+
